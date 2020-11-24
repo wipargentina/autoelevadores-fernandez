@@ -1,0 +1,113 @@
+.hero {
+  position: relative;
+  background-size: cover;
+  background-color: $secondary;
+
+  .darken {
+    background-color: rgba(#000, 0.3);
+    height: 600px;
+  }
+
+  .content {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    .container {
+      
+      h1, h2, h3, h4 {
+        color: white;
+      }
+
+      h1 {
+        margin-top: 40px;
+        margin-bottom: 16px;
+      }
+      
+      h2 {
+        margin-bottom: 16px;
+      }
+
+
+      h4 {
+        margin-bottom: 40px;
+      }
+
+      #logo_tolva_semtraco {
+        width: 350px;
+        margin-bottom: 1.5rem;
+      }
+      
+      .form {
+        .btn {
+          margin-top: 1rem;
+          text-transform: uppercase;
+          color: white;
+          &:hover {
+            // background-color: $cta;
+          }
+        }
+      }
+
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+
+  .hero {
+    background-position: right -20px;
+    background-image: url('../../statics/hero-2.jpg');
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+
+  .hero {
+    background-position: right center;
+    background-image: url('../../statics/hero-2.jpg');
+  }
+
+}
+
+@media (max-width: 767px) {
+  .hero {
+    background-position: center center;
+    background-image: url('../../statics/hero-767-1200.jpg');
+    .darken {
+      height: 1200px;
+      background-color: rgba(#000, 0.25);
+    }
+
+    .content {
+      // height: 100%;
+      .container {
+        text-align: center;
+
+        h1 {
+          margin-top: 40px;
+        }
+
+        h2 {
+        }
+        
+        h4 {
+          margin-bottom: 2rem;
+        }
+
+        #logo_tolva_semtraco {
+          width: 285px;
+        }
+
+        .form {
+          margin-top: 1.5rem;
+        }
+
+      }
+    }
+  }
+}
