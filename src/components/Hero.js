@@ -2,7 +2,7 @@ import React from "react";
 
 import Form from './Form.js';
 
-import logoTolvaSemtraco from "../assets/statics/logo-tolvas-semtraco.svg";
+import isologoAgrovialFernandez from "../assets/statics/isologo-agrovial-fernandez.png";
 
 const Hero = (props) => (
   <div className="hero">
@@ -11,15 +11,14 @@ const Hero = (props) => (
       <div className="container">
         <div className="row">
           <div className="col-md-7 text-center">
-            <h1>Nueva línea  de tolvas Autodescargables</h1>
-            <img id="logo_tolva_semtraco" src={logoTolvaSemtraco} alt="Logotipo Tolvas Semtraco"></img>
-            <h4>Tres versiones disponibles: <br/>20 - 26 - 33 tn.</h4>
-            <h2>Agrandá tu equipo ahora...<br />
-            ¡Entrega inmediata!</h2>
+            <h1>Comprá hoy tu autoelevador</h1>
+            <h3>con el respaldo y  la garantía de la empresa líder en venta y servicio técnico de nuestra región</h3>
+            <h5>Logo Autoelevadores Fernandez?? </h5>
+              <img id="logo_empresa" src={isologoAgrovialFernandez} alt="logotipo de Autoelevadores Fernandez"></img>
+            <h4>Te brindamos la solución ideal para la gestión de la logística de tu empresa</h4>
+            <h4>(alguna llamada a la acción)</h4>
           </div>
-          <div className="col-md-4">
-            <Form />
-          </div>
+          <div className="col-md-4"><Form /></div>
         </div>
       </div>
     </div>

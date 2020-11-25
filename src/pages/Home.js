@@ -2,9 +2,10 @@ import React, { Component } from "react";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import Benefits from "../components/Benefits";
-import Typologies from "../components/Typologies";
-import Cta from "../components/Cta";
-import Support from "../components/Support";
+import Cta1 from "../components/Cta1";
+import AboutUs from "../components/Aboutus";
+import Proposal from "../components/Proposal";
+import Cta2 from "../components/Cta2";
 
 class Home extends Component {
   render() {
@@ -13,9 +14,10 @@ class Home extends Component {
         <Navbar />
         <Hero />
         <Benefits />
-        <Typologies />
-        <Cta />
-        <Support />
+        <Cta1 />
+        <AboutUs /> 
+        <Proposal /> 
+        <Cta2 />
       </div>
     );
   }

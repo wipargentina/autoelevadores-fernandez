@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import axios from "axios";
+// import axios from "axios";
 
 class Form extends Component {
     constructor(props) {
@@ -42,34 +42,34 @@ class Form extends Component {
   
         console.log(this.state);
   
-        axios
-            .post(
-                'https://semtraco.wipargentina.com/backend/mail.php',
-                this.state
-            )
-            .then((response) => {
-                // console.log(response);
-                if (response.status === 200) {
-                    this.setState({
-                        fname: '',
-                        lname: '',
-                        email: '',
-                        phone: '',
-                        location: '',
-                        //isSending: false,
-                        isSended: true
-                    });
-                    window.location.assign(process.env.PUBLIC_URL + '/gracias');
-                }
-                if (response.status === 400) {
-                }
-            })
-            .catch((error) => {
-                console.log(error);
-                this.setState({
-                    isError: true
-                });
-            });
+        // axios
+        //     .post(
+        //         '',
+        //         this.state
+        //     )
+        //     .then((response) => {
+        //         // console.log(response);
+        //         if (response.status === 200) {
+        //             this.setState({
+        //                 fname: '',
+        //                 lname: '',
+        //                 email: '',
+        //                 phone: '',
+        //                 location: '',
+        //                 //isSending: false,
+        //                 isSended: true
+        //             });
+        //             window.location.assign(process.env.PUBLIC_URL + '/gracias');
+        //         }
+        //         if (response.status === 400) {
+        //         }
+        //     })
+        //     .catch((error) => {
+        //         console.log(error);
+        //         this.setState({
+        //             isError: true
+        //         });
+        //     });
     }
   
     render() {

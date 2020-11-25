@@ -1,7 +1,7 @@
 import React from 'react';
 import classNames from 'classnames';
 
-import logoSemtracoBco from '../assets/statics/isologo-semtraco-blanco.png';
+import isologoAgrovial from '../assets/statics/isologo-agrovial-fernandez.png';
 
 const Navbar =  (props) => {
   const { isTanks } = props;
@@ -13,8 +13,8 @@ const Navbar =  (props) => {
   return (
     <nav className={navbarClass}>
       <div className="container">
-        <a href="/" className="navbar-brand " alt="Isologotipo Semtraco">
-          <img src={logoSemtracoBco} alt="Isologotipo Semtraco"/>
+        <a href="/" className="navbar-brand ">
+          <img src={isologoAgrovial} alt="Isologotipo Agrovial Fernandez"/>
         </a>
       </div>
     </nav>

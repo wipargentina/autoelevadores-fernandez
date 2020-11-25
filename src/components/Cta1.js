@@ -1,7 +1,7 @@
 import React from "react";
 import { Link as Scroll } from "react-scroll";
 
-const Cta = (props) => (
+const Cta1 = (props) => (
   <div className="cta">
     <div className="container">
       <h3>¿Necesitás más información?</h3>
@@ -19,4 +19,4 @@ const Cta = (props) => (
   </div>
 );
 
-export default Cta;
+export default Cta1;

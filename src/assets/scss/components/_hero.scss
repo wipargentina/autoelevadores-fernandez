@@ -18,30 +18,36 @@
 
     .container {
       
-      h1, h2, h3, h4 {
+      h1, h2, h3, h4, h5, p {
         color: white;
-      }
-
-      h1 {
         margin-top: 40px;
         margin-bottom: 16px;
       }
+
+      // h1 {
+      //   margin-top: 40px;
+      //   margin-bottom: 16px;
+      // }
       
-      h2 {
-        margin-bottom: 16px;
-      }
+      // h2 {
+      //   margin-bottom: 16px;
+      // }
 
 
-      h4 {
-        margin-bottom: 40px;
-      }
+      // h4 {
+      //   margin-bottom: 40px;
+      // }
 
-      #logo_tolva_semtraco {
+      #logo_empresa {
         width: 350px;
         margin-bottom: 1.5rem;
       }
       
       .form {
+        h5 {
+          color: $primary;
+
+        }
         .btn {
           margin-top: 1rem;
           text-transform: uppercase;
@@ -60,7 +66,7 @@
 
   .hero {
     background-position: right -20px;
-    background-image: url('../../statics/hero-2.jpg');
+    // background-image: url('../../statics/hero-2.jpg');
   }
 
 }
@@ -69,7 +75,7 @@
 
   .hero {
     background-position: right center;
-    background-image: url('../../statics/hero-2.jpg');
+    // background-image: url('../../statics/hero-2.jpg');
   }
 
 }
@@ -77,7 +83,7 @@
 @media (max-width: 767px) {
   .hero {
     background-position: center center;
-    background-image: url('../../statics/hero-767-1200.jpg');
+    // background-image: url('../../statics/hero-767-1200.jpg');
     .darken {
       height: 1200px;
       background-color: rgba(#000, 0.25);

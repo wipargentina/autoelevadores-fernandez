@@ -1,22 +1,26 @@
-#support {
+#proposal {
     padding-top: 4rem;
     padding-bottom: 3rem;
    
     h2 {
-      text-transform: uppercase;
+    //   text-transform: uppercase;
+    }
+
+    .isologo {
+        width: 260px;
     }
 
     #logo_semtraco {
         width: 260px;
     }
 
-    #logo_case {
-        width: 225px;
-    }
+    // #logo_case {
+    //     width: 225px;
+    // }
 
-    #logo_concesionario, #logo_repuestos {
-        width: 200px;
-    }
+    // #logo_concesionario, #logo_repuestos {
+    //     width: 200px;
+    // }
 
     .btn {
         text-transform: uppercase;

@@ -6,7 +6,7 @@ import * as serviceWorker from './serviceWorker';
 import TagManager from 'react-gtm-module';
 
 const tagManagerArgs = {
-  gtmId: 'GTM-MWR5Z4F'
+  gtmId: 'GTM-N886FQZ'
 };
 
 TagManager.initialize(tagManagerArgs);
