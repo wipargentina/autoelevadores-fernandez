@@ -75,7 +75,7 @@ class Form extends Component {
     render() {
       const isSending = this.state.isSending;
       return (
-            <div className='form'>
+            <div>
                 <form onSubmit={this.handleSubmit}>
                     <div className='card'>
                         <div className='card-body'>
@@ -130,6 +130,20 @@ class Form extends Component {
                                     required
                                 />
                             </div>
+                            <label className="mb-2 mt-2">¿Cuál es tu tema de interés?</label>
+                            <div>
+                                <div className="form-check-inline">
+                                    <label className="form-check-label">
+                                    <input type="radio" className="form-check-input" name="optradio" />Autoelevadores
+                                    </label>
+                                </div>
+                                <div className="form-check-inline">
+                                    <label className="form-check-label">
+                                        <input type="radio" className="form-check-input" name="optradio" />Nuestros servicios
+                                    </label>
+                                </div>
+                            </div>
+                                
                             <button
                                 className='btn btn-primary btn-lg btn-block'
                                 type='submit'

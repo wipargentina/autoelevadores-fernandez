@@ -6,26 +6,47 @@ body{
   margin-bottom: 60px;
 }
 
-// h1 {
-//   font-size: 2.65rem;
-//   line-height: 3rem;
-// }
+p {
+  font-size: 1.25rem;
+}
 
-// h2 {
-//   font-size: 2.25rem;
-//   font-weight: 700;
-//   line-height: 2.75rem;
-// }
+.es_marca {
+  font-style: italic;
+  font-weight: 400;
+}
 
-// h3 {
-//   font-size: 1.8rem;
-//   line-height:2.25rem;
-// }
+h1 {
+  // font-size: 2.65rem;
+  line-height: 3rem;
+}
 
-// h4 {
-//   font-size: 1.6rem;
-//   line-height: 2rem;
-// }
+h2 {
+  // font-size: 2.25rem;
+  // font-weight: 700;
+  line-height: 2.75rem;
+}
+
+h3 {
+  // font-size: 1.8rem;
+  line-height:2.25rem;
+}
+
+h4 {
+  // font-size: 1.6rem;
+  line-height: 2.25rem;
+}
+
+.btn {
+  text-transform: uppercase;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: $cta;
+  border: none;
+
+  &:hover {
+    background-color: darken($cta, .5);
+  }
+}
 
 
 // @media (max-width: 767px) {

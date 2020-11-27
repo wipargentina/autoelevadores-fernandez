@@ -1,0 +1,30 @@
+#trademarks {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color:$gray;
+   
+    
+    @media (min-width: 768px) {
+        #logo_taurus {
+            width: 90%;
+        }
+    }
+   
+    
+    @media (max-width: 767px) {
+
+        padding-top: 4rem;
+
+        #logo_taurus, #logo_ascanelli {
+            width: 85%;
+            // margin-bottom: 2rem;
+        }
+
+        #logo_ascanelli {
+            // width: 85%;
+            margin-bottom: 2rem;
+        }
+      
+    }
+  }
+  

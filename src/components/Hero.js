@@ -10,15 +10,13 @@ const Hero = (props) => (
     <div className="content">
       <div className="container">
         <div className="row">
-          <div className="col-md-7 text-center">
-            <h1>Comprá hoy tu autoelevador</h1>
-            <h3>con el respaldo y  la garantía de la empresa líder en venta y servicio técnico de nuestra región</h3>
-            <h5>Logo Autoelevadores Fernandez?? </h5>
-              <img id="logo_empresa" src={isologoAgrovialFernandez} alt="logotipo de Autoelevadores Fernandez"></img>
-            <h4>Te brindamos la solución ideal para la gestión de la logística de tu empresa</h4>
-            <h4>(alguna llamada a la acción)</h4>
+          <div className="col-md-6 col-lg-7 text-center bajada">
+            <h1 className="pb-4">¡Comprá hoy tu autoelevador!</h1>
+            <img id="logo_empresa" className="pb-2" src={isologoAgrovialFernandez} alt="logotipo Agrovial Fernandez"></img>
+            <h5 className="pb-3 es_marca">Nuestro nombre es marca</h5>
+            <h3 className="pb-2">Materiales y equipos agroindustriales en movimiento</h3>
           </div>
-          <div className="col-md-4"><Form /></div>
+          <div className="col-md-6 col-lg-4 form"><Form /></div>
         </div>
       </div>
     </div>

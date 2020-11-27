@@ -1,8 +1,8 @@
 .cta {
     padding-top: 50px;
     padding-bottom: 50px;
-    background-color: $secondary;
-    color: white;
+    background-color: $primary;
+    color: $secondary;
     text-align: center;
   
     h3 {
@@ -10,12 +10,7 @@
       margin-bottom: 2rem;
     }
 
-    .btn {
-      text-transform: uppercase;
-      padding-left: 20px;
-      padding-right: 20px;
-    }
-
+  
     @media (max-width: 767px) {
 
         h3 {
