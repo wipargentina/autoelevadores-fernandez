@@ -11,6 +11,38 @@
         width: 260px;
     }
 
+    ul {
+      list-style: none; /* Remove default bullets */
+      li {
+        font-size: 1.20rem;
+        margin-bottom: 2rem;
+        color: $cta;
+      }
+      span {
+        color: $secondary;
+        // margin-left: 2rem;
+
+      }
+
+      .fa_icon {
+        margin-left: -2rem;
+        margin-right: 0.75rem;
+        font-size: 1.25rem;
+      }
+
+      li::before {
+        // content: "f058";
+        // font-size: 2rem;
+        // font-family: FontAwesome;
+        // color:$cta;
+        // display: inline-block; 
+        // width: .75em;
+        // margin-left: -.75em;
+      }
+    }
+    
+    
+
     @media (max-width: 767px) {
 
         h3 {

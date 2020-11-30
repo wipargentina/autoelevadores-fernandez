@@ -8,16 +8,17 @@
   // z-index: 99;
   
   .navbar-brand{
+    margin-right: auto;
+    margin-left: auto;
     img{
-      height: 50px;
+      height: 100px;
     }
   }
   &.isTanks{
     background-color: $primary;
     text-align: center;
     .navbar-brand{
-      margin-right: auto;
-      margin-left: auto;
+     
     }
   }
 

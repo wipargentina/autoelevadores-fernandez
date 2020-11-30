@@ -1,5 +1,9 @@
 import React from "react";
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCheckCircle } from '@fortawesome/free-solid-svg-icons';
+// import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+
 // import isologo from "../assets/statics/isologo-agrovial-fernandez.png";
 
 const Proposition = (props) => (
@@ -7,21 +11,37 @@ const Proposition = (props) => (
         <div className="container">
             <div className="row justify-content-center">
                 
-                <h3 className="col-12 mt-4 mb-4 text-center">Nuestro diferencial:</h3>
-
+                <h3 className="col-12 mt-4 mb-5 text-center">Nuestro diferencial:</h3>
                 <div className="col-12 col-sm-10 col-lg-8">
-                    <p>Somos concesionario oficial Ascanelli en nuestra región: su línea de tolvas autodescargables y sembradoras orientadas a una siembra de precisión y herramientas de soporte diseñadas para un óptimo rinde.</p>
+                    <ul>
+                        <li><FontAwesomeIcon className="fa_icon" icon={faCheckCircle} size="1x" />
+                        <span>Somos <strong>concesionario oficial Ascanelli</strong> en nuestra región, en toda su línea de <strong>tolvas autodescargables y sembradoras</strong>. Herramientas de soporte para un óptimo rinde y orientadas a una siembra de precisión</span>
+                        </li>
+                        <li><FontAwesomeIcon className="fa_icon" icon={faCheckCircle} size="1x" />
+                        <span>Encontrá tu <strong>Taurus Agrovial</strong>, maquinaria vial y soporte de carga <strong>para tu industria o producción agroganadera</strong>. minicargadores, palas cargadoras frontales, retroexcavadoras y manipuladores telescópicos</span>
+                        </li>
+                        <li><FontAwesomeIcon className="fa_icon" icon={faCheckCircle} size="1x" />
+                        <span>La <strong>solución logística</strong> de nuestra compañía es <strong>elegida por los líderes</strong> del sector agrovial porque honramos cada compromiso y además disponemos de una flota propia y semis XL, exclusivos y siempre a tiempo</span>
+                        </li>
+                        <li><FontAwesomeIcon className="fa_icon" icon={faCheckCircle} size="1x" />
+                        <span>Nuestro <strong>taller local y móvil</strong> brinda reconocidas soluciones a toda nuestra línea de productos y nos posiciona como <strong>líderes en postventa</strong>. Enfocamos nuestras respuestas al tiempo operativo de tu maquinaria</span>
+                        </li>
+                    </ul>
                 </div>
 
                 <div className="col-12 col-sm-10 col-lg-8">
-                    <p>Conocé la línea Agrovial Taurus, como concesionario oficial desde el centro del país disponemos productos líderes orientados a la obra, mantenimiento vial y maquinaria de carga para tu industria o producción agroganadera, minicargadores, palas cargadoras frontales y manipuladores telescópicos.</p>
+                    
+                </div>
+
+                <div className="col-12 col-sm-10 col-lg-8">
+                    
                 </div>
                 
                 <div className="col-12 col-sm-10 col-lg-8">
-                    <p>Nuestro taller local y móvil brinda reconocidas soluciones a toda nuestra línea de productos y nos posiciona como líderes en postventa. Enfocamos nuestras soluciones a optimizar el tiempo operativo en campo, monitorear de manera permanente y proactiva los puntos críticos de tu maquinaria evitando futuros imprevistos y pérdida de productividad.</p>
+                    
                 </div>
                 <div className="col-12 col-sm-10 col-lg-8">
-                    <p>La solución logística de nuestra compañía ya tiene nombre propio y es optada por los líderes del sector,  porque honramos cada compromiso, siempre a tiempo. Disponemos de equipos exclusivos para el sector agrovial, dimensionados para preservar la seguridad de tu equipo</p>
+                    
                 </div>
         
             </div>
