@@ -4,7 +4,7 @@
   background-color: $primary;
 
   .darken {
-    background-color: rgba(#000, 0.4);
+    // background-color: rgba(#000, 0.4);
     height: 700px;
   }
 
@@ -49,8 +49,8 @@
 @media (min-width: 1200px) {
 
   .hero {
-    background-position: right bottom;
-    background-image: url('../../statics/Mesa de trabajo 1 copia.jpg');
+    background-position: center bottom;
+    background-image: url('../../statics/hero-1920-x-700.jpg');
 
     .bajada {
       h1 {
@@ -65,10 +65,10 @@
 @media (min-width: 768px) and (max-width: 1199px) {
 
   .hero {
-    background-position: right bottom;
-    background-image: url('../../statics/Mesa de trabajo 1 copia 2.jpg');
+    background-position: center bottom;
+    background-image: url('../../statics/hero-1920-x-700.jpg');
     .darken {
-      background-color: rgba(#000, 0.5);
+      // background-color: rgba(#000, 0.5);
     }
     .bajada {
       h1 {
