@@ -130,14 +130,14 @@ class Form extends Component {
                                     required
                                 />
                             </div>
-                            <label className="mb-2 mt-2">¿Cuál es tu tema de interés?</label>
+                            <label className="mb-3 mt-3">¿Cuál es tu tema de interés?</label>
                             <div>
-                                <div className="form-check-inline">
+                                <div className="form-check-inline mb-2">
                                     <label className="form-check-label">
                                     <input type="radio" className="form-check-input" name="optradio" />Autoelevadores
                                     </label>
                                 </div>
-                                <div className="form-check-inline">
+                                <div className="form-check-inline mb-2">
                                     <label className="form-check-label">
                                         <input type="radio" className="form-check-input" name="optradio" />Nuestros servicios
                                     </label>

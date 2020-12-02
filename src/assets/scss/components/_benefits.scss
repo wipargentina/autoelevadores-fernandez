@@ -5,6 +5,13 @@
   //border-top: 4px solid $gray-800;
   //border-bottom: 4px solid $gray-600;
 
+  .autoelevador  {
+    background-size: cover;
+    height: 325px;
+    background-position: left top;
+    background-image: url('../../statics/imagen-autoelevadores.jpg');
+  }
+
   .container {
 
     .benefits-item {
@@ -37,7 +44,7 @@
 
 @media (max-width: 767px) {
   .benefits {
-    padding: 40px 0;
+    padding: 0;
     .container {
       .benefits-item {
         margin-top: 1.25rem;

@@ -3,7 +3,8 @@ import Hero from "../components/Hero";
 import Benefits from "../components/Benefits";
 import Cta1 from "../components/Cta1";
 import AboutUs from "../components/Aboutus";
-import Proposition from "../components/Proposition";
+import Proposition2 from "../components/Proposition2";
+// import Proposition from "../components/Proposition";
 import Cta2 from "../components/Cta2";
 import Trademarks from "../components/Trademarks";
 
@@ -15,7 +16,8 @@ class Home extends Component {
         <Benefits />
         <Cta1 />
         <AboutUs /> 
-        <Proposition /> 
+        <Proposition2 /> 
+        {/* <Proposition />  */}
         <Cta2 />
         <Trademarks />
       </div>

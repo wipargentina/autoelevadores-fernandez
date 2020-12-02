@@ -2,7 +2,7 @@ import React from "react";
 
 import isologos from "../assets/statics/isologo-agrovial-fernandez.png";
 
-import iconoDisponibilidad from "../assets/statics/icono_disponibilidad.svg";
+// import iconoDisponibilidad from "../assets/statics/icono_disponibilidad.svg";
 
 const AboutUs = (props) => (
     <section id="about_us">
@@ -16,7 +16,7 @@ const AboutUs = (props) => (
                 <h4 className="col-12 col-md-10 col-lg-8 mt-4">Venta y servicios de maquinaria Agro-Industrial de gran porte y máximo rendimiento</h4>
             </div>
 
-            <div className="row justify-content-center mt-5 categories">
+            {/* <div className="row justify-content-center mt-5 categories">
 
                 <div className="col-sm-6 col-md-3">
                     <div className="categories-item">
@@ -54,7 +54,7 @@ const AboutUs = (props) => (
                     </div>
                 </div> 
 
-            </div>
+            </div> */}
 
 
         </div>
