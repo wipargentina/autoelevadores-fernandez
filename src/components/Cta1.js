@@ -4,7 +4,7 @@ import { Link as Scroll } from "react-scroll";
 const Cta1 = (props) => (
   <div className="cta">
     <div className="container">
-      <h3>¿Necesitás más información?</h3>
+      <h3 className="mb-4">¿Necesitás más información?</h3>
       <Scroll
         to="form"
         spy={true}
