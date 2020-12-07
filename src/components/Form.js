@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-// import axios from "axios";
+import axios from "axios";
 
 class Form extends Component {
     constructor(props) {
@@ -11,9 +11,8 @@ class Form extends Component {
             email: '',
             phone: '',
             location: '',
-            tags: '',
+            interes: '',
             isSending: false,
-            isSended: false,
             isError: false
         };
   
@@ -40,36 +39,39 @@ class Form extends Component {
             isSending: true
         });
   
-        console.log(this.state);
+        // console.log(this.state);
   
-        // axios
-        //     .post(
-        //         '',
-        //         this.state
-        //     )
-        //     .then((response) => {
-        //         // console.log(response);
-        //         if (response.status === 200) {
-        //             this.setState({
-        //                 fname: '',
-        //                 lname: '',
-        //                 email: '',
-        //                 phone: '',
-        //                 location: '',
-        //                 //isSending: false,
-        //                 isSended: true
-        //             });
-        //             window.location.assign(process.env.PUBLIC_URL + '/gracias');
-        //         }
-        //         if (response.status === 400) {
-        //         }
-        //     })
-        //     .catch((error) => {
-        //         console.log(error);
-        //         this.setState({
-        //             isError: true
-        //         });
-        //     });
+        axios
+            .post(
+                'https://agrovialfernandez.com/backend/api',
+                this.state
+            )
+            .then((response) => {
+                console.log(response);
+                this.setState({
+                    isSending: false,
+                });
+                if (response.status === 200) {
+                    this.setState({
+                        fname: '',
+                        lname: '',
+                        email: '',
+                        phone: '',
+                        location: '',
+                        interes: '',
+                        isError: false
+                    });
+                    window.location.assign(process.env.PUBLIC_URL + '/gracias');
+                }
+                if (response.status === 400) {
+                }
+            })
+            .catch((error) => {
+                console.log(error);
+                this.setState({
+                    isError: true
+                });
+            });
     }
   
     render() {
@@ -134,16 +136,24 @@ class Form extends Component {
                             <div>
                                 <div className="form-check-inline mb-2">
                                     <label className="form-check-label">
-                                    <input type="radio" className="form-check-input" name="optradio" />Autoelevadores
+                                    <input type="radio" className="form-check-input" 
+                                        name="interes" 
+                                        value="autoelevadores"
+                                        onChange={this.handleChange} 
+                                    />Autoelevadores
                                     </label>
                                 </div>
                                 <div className="form-check-inline mb-2">
                                     <label className="form-check-label">
-                                        <input type="radio" className="form-check-input" name="optradio" />Nuestros servicios
+                                            <input type="radio" className="form-check-input" 
+                                            name="interes" 
+                                            value="servicios"
+                                            onChange={this.handleChange} 
+                                    />Nuestros servicios
                                     </label>
                                 </div>
                             </div>
-                                
+
                             <button
                                 className='btn btn-primary btn-lg btn-block'
                                 type='submit'
