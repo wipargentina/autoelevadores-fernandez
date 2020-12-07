@@ -4,6 +4,13 @@
     background-color: $primary;
     color: $secondary;
     text-align: center;
+
+    .btn {
+      background-color: $cta;
+      &:hover {
+        background-color: darken($cta, .5);
+      }
+    }
   
     h3 {
       font-size: 1.6em;

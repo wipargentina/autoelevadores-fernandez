@@ -3,6 +3,14 @@
   background-size: cover;
   background-color: $primary;
 
+  .btn {
+    background-color: $cta;
+    &:hover {
+      background-color: darken($cta, .5);
+    }
+  }
+  
+
   .darken {
     height: 725px;
   }

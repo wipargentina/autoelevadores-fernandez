@@ -1,7 +1,12 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faInstagram } from '@fortawesome/free-brands-svg-icons';
+
+import whatsAppBrand from "../assets/statics/whatsapp-brands.svg";
+
+
+// import isologoAgrovialFernandez from "../assets/statics/isologo-agrovial-fernandez.png";
 
 const Tanks =  (props) => (
   <>
@@ -13,28 +18,19 @@ const Tanks =  (props) => (
           <h2>¡Muchas gracias por completar el formulario!</h2>
           <h4 className="mt-4">Tu información ya ha sido asignada a nuestros representantes.<br/>
           En breve nos contactaremos contigo.</h4>
-          <p className="mt-5">Te invitamos a que descargues ....:</p>
-          <div className="row justify-content-center mt-2 mb-lg-5">
-            <div className="col-12 col-md-6 col-lg-4">
-              <a id="btn_tolva_20tn" href="/" alt="" className="btn btn-primary" target="_blank" rel="noopener noreferrer">Descarga algo <strong>- aquí</strong></a>
-            </div>
-            
-          </div>
+          <h5 className="mt-5">Si lo prefieres, escríbenos por Whatsapp:</h5>
+          <a className="btn btn-success" id="btn_whatsapp" href="https://wa.me/543584392334" rel="noopener noreferrer" target="_blank">
+            <img src={whatsAppBrand} alt="botón contacto WhatsApp"></img> +54 358 123 456
+          </a>
 
-          <h5 className="mt-4">¿Interesado en conocer algo mas sobre nosotros?<br/></h5>
-          <p>Visitanos en nuestras redes sociales</p>
+          <h5 className="mt-5">¿Interesado en conocer algo más sobre nosotros?<br/></h5>
           <div className="social mt-4">
-            <a className="mx-2" href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
-              <FontAwesomeIcon
-                icon={faFacebook}
-                size="2x"
-              />
-            </a>
-            <a className="mx-2" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
-              <FontAwesomeIcon
+            <a className="mx-2" href="https://www.instagram.com/agrovialfernandez/" target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon className="rrss_icon"
                 icon={faInstagram}
                 size="2x"
               />
+              <p className="mt-1">Visitanos en Instagram</p>
             </a>
           </div>          
         </div>

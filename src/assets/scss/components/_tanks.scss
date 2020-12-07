@@ -9,8 +9,11 @@
   }
 
   a{
-    color: $cta;
-
+    color: $secondary;
+    text-decoration: none;
+    .rrss_icon {
+      color: $cta;
+    }
   }
 
   h5{
@@ -36,11 +39,10 @@
     }
   }
 
-  .whatsapp{
-    .btn{
-      &:first-child{
-        margin-right: 8px;
-      }
+  #btn_whatsapp{
+    img {
+      height: 1.6rem;
+      padding-bottom: .25rem;
     }
   }
 
