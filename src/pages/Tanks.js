@@ -16,14 +16,14 @@ const Tanks =  (props) => (
       <div className="row justify-content-center">
         <div className="col-md-8">
           <h2>¡Muchas gracias por completar el formulario!</h2>
-          <h4 className="mt-4">Tu información ya ha sido asignada a nuestros representantes.<br/>
+          <h4 className="mt-4 mt-sm-5">Tu información ya ha sido asignada a nuestros representantes.<br/>
           En breve nos contactaremos contigo.</h4>
-          <h5 className="mt-5">Si lo prefieres, escríbenos por Whatsapp:</h5>
-          <a className="btn btn-success" id="btn_whatsapp" href="https://wa.me/543584392334" rel="noopener noreferrer" target="_blank">
-            <img src={whatsAppBrand} alt="botón contacto WhatsApp"></img> +54 358 123 456
+          <h5 className="mt-4 mt-sm-5">Si lo prefieres, escríbenos por Whatsapp:</h5>
+          <a className="btn btn-success" id="btn_whatsapp" href="https://wa.me/543516077077" rel="noopener noreferrer" target="_blank">
+            <img src={whatsAppBrand} alt="botón contacto WhatsApp"></img> +54 351 6077 077
           </a>
 
-          <h5 className="mt-5">¿Interesado en conocer algo más sobre nosotros?<br/></h5>
+          <h5 className="mt-4 mt-sm-5">¿Interesado en conocer algo más sobre nosotros?<br/></h5>
           <div className="social mt-4">
             <a className="mx-2" href="https://www.instagram.com/agrovialfernandez/" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon className="rrss_icon"
