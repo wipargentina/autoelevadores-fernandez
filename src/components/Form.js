@@ -78,7 +78,7 @@ class Form extends Component {
       const isSending = this.state.isSending;
       return (
             <div>
-                <form onSubmit={this.handleSubmit}>
+                <form id="form_send_lead" onSubmit={this.handleSubmit}>
                     <div className='card'>
                         <div className='card-body'>
                             <h5>Completa tus datos aquí</h5>
@@ -155,6 +155,7 @@ class Form extends Component {
                             </div>
 
                             <button
+                                id="btn_send_form"
                                 className='btn btn-primary btn-lg btn-block'
                                 type='submit'
                                 disabled={isSending}
